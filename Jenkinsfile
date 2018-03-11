@@ -39,7 +39,7 @@ steps{
 
 sh(script:'docker login -u sumeshkanayi -p Sia123')
 sh(script:'docker tag sumeshkanayi/devops-maven sumeshkanayi/devops-maven:1.0.0')
-sh(script:'docker push sumeshkanayi/devops-maven:1.0.0')
+sh(script:'docker push sumeshkanayi/devops-maven:1.0.1')
 
 }
 
