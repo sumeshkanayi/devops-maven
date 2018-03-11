@@ -54,7 +54,7 @@ sh(script:'docker push sumeshkanayi/devops-maven:1.0.2')
 steps{
 
 
-sh(script:'docker run -it --name devops-test sumeshkanayi/devops-maven:1.0.2')
+sh(script:'docker run -it -d --name devops-test sumeshkanayi/devops-maven:1.0.2')
 sh(script:'docker exec -it devops-test ls /')
 
 }
